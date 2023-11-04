@@ -14,6 +14,6 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
-      # Step 3: Run tests using the Gradle Wrapper.
-      - name: Run Test with Gradle Wrapper
-        run: ./gradlew test
+      # Step 3: Run tests using the Gradle.
+      - name: Run Test with Gradle
+        run: ./gradle test
