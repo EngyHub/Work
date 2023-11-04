@@ -19,7 +19,8 @@ public class Student {
         } else if (finalGrade >= 60) {
             return "D";
         } else {
-            return "F"; } 
+            return "F"; 
+	} 
 }
 
 public class StudentTest {
